@@ -1,0 +1,43 @@
+/* 
+    Document   : style
+    Created on : 31-ott-2010, 19.35.13
+    Author     : hacktek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+
+}
+#container{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    /*background: gray;*/
+    
+}
+#arena{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+
+}
+
+#debug{
+    position: fixed;
+    top:10px;
+    right:10px;
+    width: 200px;
+    
+    margin:0 20px;
+    border: 1px solid #000;
+    
+}
